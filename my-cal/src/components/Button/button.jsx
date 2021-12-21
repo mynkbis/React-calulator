@@ -13,11 +13,13 @@ const Button=()=>   {
   // const[input, setInput]=useState("0");
   // const [total, setTotal]=useState("");
 
-  const multi=()=>{};
-  const divide=()=>{};
-  const percent=()=>{};
-  const plus=()=>{};
-  const minus=()=>{};
+  const multi=()=>{
+    console.log("multi")
+  };
+  const divide=()=>{console.log("div")};
+  const percent=()=>{console.log("per")};
+  const plus=()=>{console.log("plus")};
+  const minus=()=>{ console.log("minu");};
  
   return (
     <div>    

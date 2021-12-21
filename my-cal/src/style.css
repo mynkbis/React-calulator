@@ -7,36 +7,21 @@
 -webkit-app-region:none;
 }
 
-body{
-    background-color: burlywood;
-display: grid;
-place-content: center;
-font-family: 'Courier New', Courier, monospace;
-height: 120vh;
-font-size: 2rem;
-
-}
-
 .container{
-    display: grid;
-    height: 80vh;
-    width: 50pvw;
-   justify-content: wrap;
-    background-color:white;
-    border-radius: 1rem;
-    padding: 1rem;
-    -webkit-box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
-    -moz-box-shadow:  7px 7px 5px 0px rgba(50,50,50,0.75);
-    box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 10vw;        
+border: 1px solid darkblue;
+
+
 }
 
 .wrapper{
-    display: grid;
-    height: 100%;
-    width: 100%;
-    /* grid-template-columns: repeat(4,1fr); */
-    border-radius: 50%;
-    gap: 10px;
+    width: 80px;
+    height: 100px;
+    size: 2rem;
+
 
 }
 
@@ -49,6 +34,7 @@ font-size: 2rem;
     font-size: 4rem;
     overflow: hidden;
 }
+
 .btn{
     display: grid;
     place-content: center;
@@ -69,10 +55,8 @@ background-color: gray;
 color: black
 ;
 }
+    
 
-
-.light-grey:hover{
-    background-color: wheat;
-    color: black
-    ;
-    }
+.btn-num{
+    color: red;
+}

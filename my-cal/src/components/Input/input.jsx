@@ -1,6 +1,5 @@
-
 const inputnum=(e)=>{
-
+ 
 }
 const Input1=()=>   {
   return (<>
