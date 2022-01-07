@@ -1,0 +1,14 @@
+.Input1 > button {
+    color: red;
+    width: 145px;
+    height: 40px;
+}
+
+.Input1{
+    display: flex;
+    position: relative;
+    top: -45px;
+    left: 95px;
+    border: 1px;
+
+}

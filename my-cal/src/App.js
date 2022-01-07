@@ -5,17 +5,19 @@ import Clear from "./components/ClearButton/Clear";
 
 
 const App=()=>   {
-  return (
-    <div className="container">
+  return (<>
+    
+    <div className="container"> 
+    <div className="Calc"><strong>Calculator</strong></div>
+    
       <div className="wrapper">
       <div className="screen">0</div>
       <Button1/>
       <Input1/>
-      <div className=" Input2">
-            <Clear/>
+      <Clear/>
       </div>
      </div>
-     </div>
+     </>
   );
 }
 
