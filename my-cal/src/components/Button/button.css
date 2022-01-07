@@ -1,0 +1,16 @@
+.input1{
+
+    display: flex;
+
+
+}   
+
+.input1 > Button{
+padding: 10px;
+margin-left: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+border: 1px     lightblue;
+}
+
